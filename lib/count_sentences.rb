@@ -17,7 +17,7 @@ class String
   def count_sentences
     array = []
     array2 = []
-    array << self.split(".")
+    self.split(".").join.split("!").join.split("?")
     array2 << array.split("!")
     array2.split("?")
     #.reject(&:empty?)
