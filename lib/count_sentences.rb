@@ -18,8 +18,6 @@ class String
     array = []
     array2 = []
     self.split(".").join.split("!").join.split("?")
-    array2 << array.split("!")
-    array2.split("?")
     #.reject(&:empty?)
   end
 end
