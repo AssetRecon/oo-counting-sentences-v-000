@@ -17,7 +17,7 @@ class String
   def count_sentences
     array = []
     array2 = []
-    self.split.uniq
+    self.split.reverse.uniq.reverse.join(' ')
     #.reject(&:empty?)
   end
 end
